@@ -1,0 +1,11 @@
+/*
+ * bai1.c
+ *
+ *  Created on: Apr 4, 2025
+ *      Author: gau
+ */
+#include <stdio.h>
+int main(void){
+	in * address = (in*)  0x00007FFF8E3C3825;
+}
+

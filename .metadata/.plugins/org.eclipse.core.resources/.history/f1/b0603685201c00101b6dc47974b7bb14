@@ -1,0 +1,28 @@
+/*
+ * P2bai2.c
+ *
+ *  Created on: Apr 18, 2025
+ *      Author: gau
+ */
+#include <stdio.h>
+
+// Ham tinh tong va tich cua hai so
+void tinhTongVaTich(int a, int b, int *tong, int *tich) {
+    *tong = a + b;
+    *tich = a * b;
+}
+
+int main() {
+    int x = 5, y = 3;
+    int tong, tich;
+
+    tinhTongVaTich(x, y, &tong, &tich);
+
+    printf("Tong cua %d va %d la: %d\n", x, y, tong);
+    printf("Tich cua %d va %d la: %d\n", x, y, tich);
+getchar();
+getchar();
+    return 0;
+}
+
+

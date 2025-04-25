@@ -1,0 +1,28 @@
+/*
+ * bai5.c
+ *
+ *  Created on: Apr 4, 2025
+ *      Author: gau
+ */
+#include <stdio.h>
+
+long long int data = 0x00007FFE3C3025;
+
+int main(void)
+{
+    char *pAddress1;
+    pAddress1 = (char*)&data;
+    printf("Value at address %p is %x\n", pAddress1, *pAddress1);
+
+    int *pAddress2;
+    pAddress2 = (int*)&data;
+    printf("Value at address %p is %x\n", pAddress2, *pAddress2);
+
+    long long *pAddress3;
+    pAddress3 = (long long*)&data;
+    printf("Value at address %p is %I64x\n", pAddress3, *pAddress3);
+getchar();
+getchar();
+    return 0;
+}
+

@@ -1,0 +1,10 @@
+16:57:56 **** Incremental Build of configuration Debug for project dayy ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o bai1.o "..\\bai1.c" 
+..\bai1.c:28:20: fatal error: Ucglib.h: No such file or directory
+ #include <Ucglib.h>
+                    ^
+compilation terminated.
+
+16:57:56 Build Failed. 1 errors, 0 warnings. (took 104ms)
+

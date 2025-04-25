@@ -1,0 +1,37 @@
+/*
+ * P3bai2.c
+ *
+ *  Created on: Apr 18, 2025
+ *      Author: gau
+ */
+#include <stdio.h>
+
+// Khai bao cau truc Rectangle
+struct Rectangle {
+    int length;   // chieu dai
+    int width;    // chieu rong
+    int area;     // dien tich
+};
+
+int main() {
+    struct Rectangle rect;
+
+    // Nhap chieu dai va chieu rong tu nguoi dung
+    printf("Nhap chieu dai hinh chu nhat: ");
+    scanf("%d", &rect.length);
+
+    printf("Nhap chieu rong hinh chu nhat: ");
+    scanf("%d", &rect.width);
+
+    // Tinh dien tich va luu vao rect.area
+    rect.area = rect.length * rect.width;
+
+    // In ket qua
+    printf("Hinh chu nhat co chieu dai = %d, chieu rong = %d\n",
+           rect.length, rect.width);
+    printf("=> Dien tich = %d\n", rect.area);
+getchar();
+    return 0;
+}
+
+

@@ -1,0 +1,23 @@
+/*
+ * function.c
+ *
+ *  Created on: Apr 4, 2025
+ *      Author: gau
+ */
+#include <stdio.h>
+
+// prototype
+void function_add_numbers(int a, int b, int c);
+
+int main(void)
+{
+    function_add_numbers(1, 4, 5);
+    return 0;
+}
+
+void function_add_numbers(int a, int b, int c)
+{
+    int sum;
+    sum = a + b + c;
+    printf("Sum = %d\n", sum);
+}
