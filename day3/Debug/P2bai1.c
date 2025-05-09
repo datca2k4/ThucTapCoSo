@@ -1,8 +1,0 @@
-/*
- * P2bai1.c
- *
- *  Created on: Apr 18, 2025
- *      Author: gau
- */
-
-
